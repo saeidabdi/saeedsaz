@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://raw.githubusercontent.com/SpryFinance/spry-main-landing/HEAD/app/globals.css\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:4599/index.html)",
+      "Bash(perl -0pi -e 's/989012345678/989213013450/g; s/۰۹۰۱۲۳۴۵۶۷۸/۰۹۲۱۳۰۱۳۴۵۰/g' index.html)"
+    ]
+  }
+}

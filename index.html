@@ -1,0 +1,1712 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <!-- ============================================================
+       متا تگ‌های پایه
+       ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سعید | طراح سایت فروشگاهی برای پیج‌های اینستاگرام</title>
+
+  <!-- ============================================================
+       سئو: توضیحات و کلمات کلیدی
+       (این مقادیر را می‌توانید متناسب با کسب‌وکار خود ویرایش کنید)
+       ============================================================ -->
+  <meta name="description" content="سعید، طراح سایت و برنامه‌نویس با بیش از ۷ سال تجربه. ساخت فروشگاه اینترنتی برای پیج‌های اینستاگرامی که سایت ندارند — تحویل سایت فروشگاهی در فقط ۵ روز، با پرداخت اقساطی." />
+  <meta name="keywords" content="طراحی سایت, طراحی سایت فروشگاهی, سایت برای پیج اینستاگرام, فروشگاه اینترنتی, سایت اینستاگرام, طراحی سایت ۵ روزه, برنامه نویس, طراحی سایت اقساطی" />
+  <meta name="author" content="سعید" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://saeidsaz.ir/" />
+  <meta name="theme-color" content="#0d1b2a" />
+
+  <!-- ============================================================
+       Open Graph (برای اشتراک‌گذاری در شبکه‌های اجتماعی)
+       ============================================================ -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fa_IR" />
+  <meta property="og:site_name" content="سعید" />
+  <meta property="og:title" content="سعید | طراح سایت فروشگاهی برای پیج‌های اینستاگرام" />
+  <meta property="og:description" content="فروشگاه اینترنتی برای پیج‌های اینستاگرامی که سایت ندارند — تحویل در فقط ۵ روز، با پرداخت اقساطی." />
+  <meta property="og:url" content="https://saeidsaz.ir/" />
+  <meta property="og:image" content="./images/saeed.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="سعید | طراح سایت فروشگاهی برای پیج‌های اینستاگرام" />
+  <meta name="twitter:description" content="فروشگاه اینترنتی برای پیج‌های اینستاگرامی که سایت ندارند — تحویل در فقط ۵ روز، با پرداخت اقساطی." />
+  <meta name="twitter:image" content="./images/saeed.png" />
+
+  <!-- ============================================================
+       فونت وزیرمتن (Vazirmatn) + Font Awesome 6 — کاملاً محلی (بدون CDN)
+       فایل‌های فونت در css/fonts و css/fontawesome ذخیره شده‌اند.
+       ============================================================ -->
+  <link rel="stylesheet" href="./css/Vazirmatn-font-face.css" />
+  <link rel="stylesheet" href="./css/fontawesome/css/all.min.css" />
+
+  <!-- Favicon (اختیاری — می‌توانید فایل favicon.ico خود را جایگزین کنید) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230d1b2a'/%3E%3Ctext x='50' y='68' font-size='55' text-anchor='middle' fill='%23d4af37' font-family='sans-serif' font-weight='bold'%3E%D8%B3%3C/text%3E%3C/svg%3E" />
+
+  <!-- ============================================================
+       داده‌های ساختاریافته JSON-LD (سئو پیشرفته)
+       ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "سعید",
+    "jobTitle": "طراح سایت فروشگاهی و برنامه‌نویس",
+    "url": "https://saeidsaz.ir",
+    "image": "./images/saeed.png",
+    "sameAs": [
+      "https://instagram.com/s_aeedabdi"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "سعیدساز — طراحی سایت",
+      "url": "https://saeidsaz.ir"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "سعیدساز — طراحی سایت",
+    "url": "https://saeidsaz.ir",
+    "logo": "./images/saeed.png",
+    "description": "ساخت فروشگاه اینترنتی برای پیج‌های اینستاگرامی که سایت ندارند؛ تحویل سایت فروشگاهی در ۵ روز، با پرداخت اقساطی.",
+    "sameAs": [
+      "https://instagram.com/s_aeedabdi"
+    ]
+  }
+  </script>
+
+  <!-- ============================================================
+       اسکریپت‌های تحلیلی و سئو را اینجا اضافه کنید
+       (گوگل آنالیتیکس، گوگل سرچ کنسول، تگ منیجر و ...)
+       نمونه در انتهای فایل (راهنما) توضیح داده شده است.
+       ============================================================ -->
+  <!-- <<< GOOGLE ANALYTICS / GTM HERE >>> -->
+
+  <!-- ============================================================
+       استایل‌های داخلی (CSS)
+       ============================================================ -->
+  <style>
+    /* ---------- متغیرهای رنگ و طراحی (Design Tokens) ----------
+       برای تغییر تم سایت کافیست این مقادیر را ویرایش کنید. */
+    :root {
+      --color-primary: #0d1b2a;      /* آبی نفتی تیره — رنگ اصلی */
+      --color-primary-2: #1a2a3a;    /* آبی نفتی روشن‌تر */
+      --color-accent: #d4af37;       /* طلایی — رنگ مکمل */
+      --color-accent-2: #f0c040;     /* طلایی روشن */
+      --color-purple: #3a1c5e;       /* بنفش تیره برای گرادینت */
+      --color-light: #f5f7fa;        /* پس‌زمینه روشن */
+      --color-white: #ffffff;
+      --color-text: #2b3440;         /* متن اصلی روی پس‌زمینه روشن */
+      --color-muted: #6b7684;        /* متن کم‌رنگ */
+      --color-text-on-dark: #e6ecf2; /* متن روی پس‌زمینه تیره */
+      --color-green: #16a34a;        /* سبز بنر مشاوره رایگان */
+
+      --radius: 16px;
+      --radius-sm: 10px;
+      --shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+      --shadow-lg: 0 20px 50px rgba(13, 27, 42, 0.25);
+      --transition: 0.3s ease;
+      --container: 1180px;
+      --section-gap: 100px; /* فاصله بین بخش‌ها (whitespace) */
+
+      --font: "Vazirmatn", "Segoe UI", Tahoma, sans-serif;
+    }
+
+    /* ---------- ریست پایه ---------- */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font);
+      color: var(--color-text);
+      background: var(--color-light);
+      line-height: 1.8;
+      font-size: 1.1rem;
+      overflow-x: hidden;
+    }
+
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+    img { max-width: 100%; display: block; }
+
+    /* اسکرول‌بار سفارشی */
+    ::selection { background: var(--color-accent); color: var(--color-primary); }
+
+    /* ---------- کلاس‌های کمکی ---------- */
+    .container {
+      width: 100%;
+      max-width: var(--container);
+      margin-inline: auto;
+      padding-inline: 24px;
+    }
+
+    section { padding-block: var(--section-gap); }
+
+    .section-head { text-align: center; margin-bottom: 56px; }
+    .section-head h2 {
+      font-size: 2.6rem;
+      color: var(--color-primary);
+      font-weight: 800;
+      position: relative;
+      display: inline-block;
+    }
+    .section-head h2::after {
+      content: "";
+      position: absolute;
+      right: 50%;
+      bottom: -14px;
+      transform: translateX(50%);
+      width: 70px;
+      height: 4px;
+      border-radius: 4px;
+      background: linear-gradient(90deg, var(--color-accent), var(--color-accent-2));
+    }
+    .section-head p {
+      margin-top: 28px;
+      color: var(--color-muted);
+      font-size: 1.15rem;
+    }
+
+    /* ---------- دکمه‌ها ---------- */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 30px;
+      border-radius: 50px;
+      font-family: var(--font);
+      font-size: 1.05rem;
+      font-weight: 700;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: transform var(--transition), box-shadow var(--transition), background var(--transition), color var(--transition);
+      white-space: nowrap;
+    }
+    .btn:hover { transform: scale(1.05); }
+    .btn:active { transform: scale(0.97); } /* افکت فشردگی هنگام کلیک */
+
+    .btn-gold {
+      background: linear-gradient(135deg, var(--color-accent), var(--color-accent-2));
+      color: var(--color-primary);
+      box-shadow: 0 8px 22px rgba(212, 175, 55, 0.35);
+    }
+    .btn-gold:hover { box-shadow: 0 12px 30px rgba(212, 175, 55, 0.5); }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--color-white);
+      border-color: rgba(255, 255, 255, 0.6);
+    }
+    .btn-outline:hover { background: rgba(255, 255, 255, 0.12); }
+
+    .btn-primary {
+      background: var(--color-primary);
+      color: var(--color-white);
+    }
+    .btn-primary:hover { background: var(--color-primary-2); }
+
+    /* ============================================================
+       نوار پیشرفت اسکرول (بالای صفحه)
+       ============================================================ */
+    #scroll-progress {
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 4px;
+      width: 0%;
+      background: linear-gradient(90deg, var(--color-accent), var(--color-accent-2));
+      z-index: 1200;
+      transition: width 0.1s linear;
+    }
+
+    /* ============================================================
+       هدر (Header) — ثابت با افکت بلور
+       ============================================================ */
+    header {
+      position: fixed;
+      inset-block-start: 0;
+      inset-inline: 0;
+      z-index: 1000;
+      transition: background var(--transition), box-shadow var(--transition), padding var(--transition);
+      padding-block: 18px;
+    }
+    header.scrolled {
+      background: rgba(13, 27, 42, 0.75);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+      padding-block: 12px;
+    }
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .logo {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--color-white);
+      letter-spacing: -0.5px;
+    }
+    .logo span { color: var(--color-accent); }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .nav-links a {
+      color: var(--color-text-on-dark);
+      font-weight: 600;
+      font-size: 1.02rem;
+      padding: 8px 14px;
+      border-radius: 8px;
+      transition: color var(--transition), background var(--transition);
+    }
+    .nav-links a:hover { color: var(--color-accent); background: rgba(255, 255, 255, 0.06); }
+
+    .nav-actions { display: flex; align-items: center; gap: 12px; }
+
+    /* دکمه منوی موبایل */
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--color-white);
+      font-size: 1.5rem;
+      cursor: pointer;
+      padding: 6px;
+    }
+
+    /* ============================================================
+       بخش اصلی (Hero)
+       ============================================================ */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding-top: 120px;
+      /* پس‌زمینهٔ تیرهٔ پایه؛ رنگ و نور از لایه‌های افکت سیاه‌چاله می‌آید */
+      background: #06040e;
+      overflow: hidden;
+    }
+    /* ---------- افکت سیاه‌چاله (اقتباس از spry.fi) ---------- */
+    .blackhole-container {
+      position: absolute;
+      inset: 0;
+      z-index: 0;            /* پشت محتوای هدر؛ خودش یک stacking context می‌سازد */
+      margin: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+    /* وینیت تیره اطراف سیاه‌چاله (لبه‌ها تاریک) */
+    .blackhole-container::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 2;
+      width: 150%;
+      height: 140%;
+      background: radial-gradient(ellipse at 50% 55%, transparent 10%, #0a0912 50%);
+      transform: translate3d(-50%, -50%, 0);
+    }
+    /* هالهٔ بنفش درخشان روی گلوگاه */
+    .blackhole-container::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 5;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(ellipse at 50% 75%, #a900ff 20%, transparent 75%);
+      mix-blend-mode: overlay;
+      transform: translate3d(-50%, -50%, 0);
+    }
+    /* هالهٔ رنگی متحرک (نور بالای گرداب) */
+    @keyframes aura-glow {
+      0%   { background-position: 0 100%; }
+      100% { background-position: 0 300%; }
+    }
+    .blackhole-aura {
+      position: absolute;
+      top: -71.5%;
+      left: 50%;
+      z-index: 3;
+      width: 30%;
+      height: 140%;
+      background: linear-gradient(20deg,
+          #00f8f1,
+          #ffbd1e20 16.5%,
+          #fe848f 33%,
+          #fe848f20 49.5%,
+          #00f8f1 66%,
+          #00f8f160 85.5%,
+          #ffbd1e 100%) 0 100% / 100% 200%;
+      border-radius: 0 0 100% 100%;
+      filter: blur(50px);
+      mix-blend-mode: plus-lighter;
+      opacity: 0.75;
+      transform: translate3d(-50%, 0, 0);
+      animation: aura-glow 5s infinite linear;
+    }
+    /* خطوط اسکن ظریف روی کل افکت */
+    .blackhole-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 10;
+      background: repeating-linear-gradient(transparent, transparent 1px, rgba(255, 255, 255, 0.6) 1px, rgba(255, 255, 255, 0.6) 2px);
+      mix-blend-mode: overlay;
+      opacity: 0.35;
+    }
+    .blackhole-canvas {
+      position: absolute;
+      inset: 0;
+      z-index: 1;            /* زیر وینیت تا لبه‌ها محو شوند */
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .hero .container {
+      position: relative;
+      z-index: 3;
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      align-items: center;
+      gap: 50px;
+    }
+    .hero-text h1 {
+      font-size: 3rem;
+      line-height: 1.4;
+      color: var(--color-white);
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .hero-text h1 .accent { color: var(--color-accent); }
+    /* نشانگر تایپینگ */
+    .typed-cursor {
+      display: inline-block;
+      width: 3px;
+      height: 1em;
+      background: var(--color-accent);
+      margin-inline-start: 4px;
+      vertical-align: middle;
+      animation: blink 0.9s step-end infinite;
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .hero-text .subtitle {
+      font-size: 1.4rem;
+      color: var(--color-accent-2);
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+    .hero-text p {
+      color: var(--color-text-on-dark);
+      font-size: 1.15rem;
+      max-width: 540px;
+      margin-bottom: 34px;
+    }
+    .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
+
+    /* تصویر پروفایل */
+    .hero-image { display: flex; justify-content: center; }
+    .hero-image .frame {
+      position: relative;
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      padding: 8px;
+      background: linear-gradient(135deg, var(--color-accent), var(--color-accent-2));
+      box-shadow: var(--shadow-lg);
+      animation: float 5s ease-in-out infinite;
+    }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-16px); } }
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 6px solid var(--color-primary);
+      background: var(--color-primary-2); /* در صورت نبود عکس */
+    }
+    .hero-badge {
+      position: absolute;
+      bottom: 14px;
+      inset-inline-start: -10px;
+      background: var(--color-white);
+      color: var(--color-primary);
+      padding: 10px 18px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      box-shadow: var(--shadow);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .hero-badge i { color: var(--color-green); }
+
+    /* ============================================================
+       بخش درباره من
+       ============================================================ */
+    .about { background: var(--color-white); }
+    .about .wrap {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 50px;
+      align-items: center;
+    }
+    .about-text h2 {
+      font-size: 2.4rem;
+      color: var(--color-primary);
+      font-weight: 800;
+      margin-bottom: 22px;
+      position: relative;
+      padding-bottom: 16px;
+    }
+    .about-text h2::after {
+      content: "";
+      position: absolute;
+      right: 0; bottom: 0;
+      width: 60px; height: 4px; border-radius: 4px;
+      background: linear-gradient(90deg, var(--color-accent), var(--color-accent-2));
+    }
+    .about-text p { color: var(--color-muted); font-size: 1.12rem; }
+    .about-text .signature {
+      margin-top: 24px;
+      font-weight: 700;
+      color: var(--color-primary);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .about-text .signature i { color: var(--color-accent); }
+
+    /* کارت آمار با شمارنده */
+    .stats-card {
+      background: linear-gradient(160deg, var(--color-primary), var(--color-primary-2));
+      border-radius: var(--radius);
+      padding: 40px 32px;
+      box-shadow: var(--shadow-lg);
+      display: grid;
+      gap: 26px;
+    }
+    .stat-item { display: flex; align-items: center; gap: 18px; }
+    .stat-icon {
+      flex-shrink: 0;
+      width: 58px; height: 58px;
+      border-radius: 14px;
+      display: grid; place-items: center;
+      font-size: 1.5rem;
+      color: var(--color-primary);
+      background: linear-gradient(135deg, var(--color-accent), var(--color-accent-2));
+    }
+    .stat-info .num {
+      font-size: 2.1rem;
+      font-weight: 800;
+      color: var(--color-accent-2);
+      line-height: 1.2;
+    }
+    .stat-info .label { color: var(--color-text-on-dark); font-size: 1rem; }
+
+    /* ============================================================
+       بخش نمونه‌کارها (پورتفولیو)
+       ============================================================ */
+    .portfolio { background: var(--color-light); }
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* دسکتاپ: ۳ ستون */
+      gap: 30px;
+    }
+    .work-card {
+      background: var(--color-white);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: transform var(--transition), box-shadow var(--transition);
+      display: flex;
+      flex-direction: column;
+    }
+    .work-card:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: var(--shadow-lg);
+    }
+    .work-thumb { position: relative; overflow: hidden; aspect-ratio: 4 / 3; }
+    .work-thumb img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+    }
+    .work-card:hover .work-thumb img { transform: scale(1.08); }
+    .work-body { padding: 22px 24px 26px; display: flex; flex-direction: column; flex: 1; }
+    .work-body h3 { font-size: 1.35rem; color: var(--color-primary); margin-bottom: 8px; font-weight: 700; }
+    .work-body .desc { color: var(--color-muted); font-size: 1rem; margin-bottom: 16px; flex: 1; }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+    .tag {
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: 50px;
+      background: rgba(212, 175, 55, 0.14);
+      color: #9c7d1f;
+    }
+    .work-body .btn-link {
+      align-self: flex-start;
+      color: var(--color-primary);
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: gap var(--transition), color var(--transition);
+    }
+    .work-body .btn-link:hover { color: var(--color-accent); gap: 12px; }
+    .work-body .btn-link i { font-size: 0.85rem; }
+
+    /* ============================================================
+       بخش خدمات
+       ============================================================ */
+    .services { background: var(--color-white); }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* ۴ ستون در دسکتاپ */
+      gap: 26px;
+    }
+    .service-card {
+      text-align: center;
+      padding: 40px 26px;
+      border-radius: var(--radius);
+      border: 1px solid #eceff3;
+      background: var(--color-white);
+      transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+    }
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow);
+      border-color: transparent;
+    }
+    .service-icon {
+      width: 72px; height: 72px;
+      margin: 0 auto 22px;
+      border-radius: 20px;
+      display: grid; place-items: center;
+      font-size: 1.9rem;
+      color: var(--color-accent);
+      background: var(--color-primary);
+      transition: background var(--transition), color var(--transition), transform var(--transition);
+    }
+    .service-card:hover .service-icon {
+      background: linear-gradient(135deg, var(--color-accent), var(--color-accent-2));
+      color: var(--color-primary);
+      transform: rotate(-6deg) scale(1.05);
+    }
+    .service-card h3 { font-size: 1.25rem; color: var(--color-primary); margin-bottom: 12px; font-weight: 700; }
+    .service-card p { color: var(--color-muted); font-size: 1rem; }
+
+    .services-note {
+      margin-top: 44px;
+      text-align: center;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-primary);
+    }
+    .services-note i { color: var(--color-accent); margin-inline-end: 8px; }
+
+    /* ============================================================
+       بخش تماس با من
+       ============================================================ */
+    .contact { background: var(--color-light); }
+    .contact-wrap {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 40px;
+      align-items: stretch;
+    }
+    .contact-form {
+      background: var(--color-white);
+      padding: 36px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .form-group { margin-bottom: 20px; }
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: var(--color-text);
+      font-size: 1rem;
+    }
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 14px 16px;
+      border: 1.5px solid #e2e6ec;
+      border-radius: var(--radius-sm);
+      font-family: var(--font);
+      font-size: 1rem;
+      color: var(--color-text);
+      background: #fbfcfd;
+      transition: border-color var(--transition), box-shadow var(--transition);
+    }
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--color-accent);
+      box-shadow: 0 0 0 4px rgba(212, 175, 55, 0.15);
+    }
+    .form-group textarea { resize: vertical; min-height: 130px; }
+    .form-status { margin-top: 12px; font-weight: 600; color: var(--color-green); display: none; }
+
+    .contact-side { display: flex; flex-direction: column; gap: 22px; }
+    .contact-info {
+      background: linear-gradient(160deg, var(--color-primary), var(--color-primary-2));
+      border-radius: var(--radius);
+      padding: 32px;
+      display: grid;
+      gap: 20px;
+    }
+    .info-item { display: flex; align-items: center; gap: 16px; color: var(--color-text-on-dark); }
+    .info-item .ic {
+      flex-shrink: 0;
+      width: 48px; height: 48px;
+      border-radius: 12px;
+      display: grid; place-items: center;
+      font-size: 1.2rem;
+      color: var(--color-primary);
+      background: linear-gradient(135deg, var(--color-accent), var(--color-accent-2));
+    }
+    .info-item a, .info-item span { transition: color var(--transition); }
+    .info-item a:hover { color: var(--color-accent); }
+    .info-item .info-label { font-size: 0.85rem; color: var(--color-muted); display: block; }
+    .info-item .info-value { font-weight: 700; font-size: 1.05rem; }
+
+    /* بنر سبز مشاوره رایگان */
+    .free-banner {
+      background: linear-gradient(135deg, var(--color-green), #22c55e);
+      color: var(--color-white);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-weight: 700;
+      font-size: 1.08rem;
+      box-shadow: 0 10px 26px rgba(22, 163, 74, 0.3);
+    }
+    .free-banner i { font-size: 1.8rem; flex-shrink: 0; }
+
+    /* ============================================================
+       فوتر (Footer)
+       ============================================================ */
+    footer {
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-purple) 130%);
+      color: var(--color-text-on-dark);
+      padding-block: 50px 30px;
+      text-align: center;
+    }
+    .footer-logo { font-size: 1.8rem; font-weight: 800; color: var(--color-white); margin-bottom: 18px; }
+    .footer-logo span { color: var(--color-accent); }
+    .footer-social { display: flex; justify-content: center; gap: 14px; margin-bottom: 26px; }
+    .footer-social a {
+      width: 46px; height: 46px;
+      border-radius: 50%;
+      display: grid; place-items: center;
+      font-size: 1.15rem;
+      color: var(--color-white);
+      background: rgba(255, 255, 255, 0.08);
+      transition: transform var(--transition), background var(--transition), color var(--transition);
+    }
+    .footer-social a:hover {
+      transform: translateY(-4px) scale(1.05);
+      background: linear-gradient(135deg, var(--color-accent), var(--color-accent-2));
+      color: var(--color-primary);
+    }
+    .footer-divider { height: 1px; background: rgba(255, 255, 255, 0.1); margin: 24px auto; max-width: 400px; }
+    footer .copy { font-size: 0.98rem; color: var(--color-muted); }
+
+    /* ============================================================
+       دکمه بازگشت به بالا
+       ============================================================ */
+    #back-to-top {
+      position: fixed;
+      bottom: 26px;
+      inset-inline-end: 26px;
+      width: 52px; height: 52px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      display: grid; place-items: center;
+      font-size: 1.2rem;
+      color: var(--color-primary);
+      background: linear-gradient(135deg, var(--color-accent), var(--color-accent-2));
+      box-shadow: 0 8px 22px rgba(212, 175, 55, 0.4);
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(20px);
+      transition: opacity var(--transition), transform var(--transition), visibility var(--transition);
+      z-index: 900;
+    }
+    #back-to-top.show { opacity: 1; visibility: visible; transform: translateY(0); }
+    #back-to-top:hover { transform: scale(1.12); }
+
+    /* ============================================================
+       انیمیشن fade-in هنگام اسکرول
+       ============================================================ */
+    .reveal {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* ============================================================
+       ریسپانسیو: تبلت
+       ============================================================ */
+    @media (max-width: 992px) {
+      :root { --section-gap: 80px; }
+      .hero .container { grid-template-columns: 1fr; text-align: center; }
+      .hero-text p { margin-inline: auto; }
+      .hero-actions { justify-content: center; }
+      .hero-image { order: -1; }
+      .hero-text h1 { font-size: 2.5rem; }
+
+      .about .wrap { grid-template-columns: 1fr; }
+      .about-text h2::after { right: 50%; transform: translateX(50%); }
+      .about-text { text-align: center; }
+      .about-text .signature { justify-content: center; }
+
+      .portfolio-grid { grid-template-columns: repeat(2, 1fr); } /* تبلت: ۲ ستون */
+      .services-grid { grid-template-columns: repeat(2, 1fr); }  /* تبلت: ۲ ستون */
+      .contact-wrap { grid-template-columns: 1fr; }
+    }
+
+    /* ============================================================
+       ریسپانسیو: موبایل
+       ============================================================ */
+    @media (max-width: 640px) {
+      body { font-size: 1.05rem; }
+      .section-head h2, .about-text h2 { font-size: 2rem; }
+
+      /* منوی موبایل */
+      .menu-toggle { display: block; }
+      .nav-links {
+        position: absolute;
+        inset-block-start: 100%;
+        inset-inline: 12px;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 4px;
+        background: rgba(13, 27, 42, 0.96);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border-radius: var(--radius);
+        padding: 14px;
+        box-shadow: var(--shadow-lg);
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        pointer-events: none;
+        transition: max-height var(--transition), opacity var(--transition);
+      }
+      .nav-links.open { max-height: 400px; opacity: 1; pointer-events: auto; }
+      .nav-links a { text-align: center; }
+
+      .hero-text h1 { font-size: 2rem; }
+      .hero-text .subtitle { font-size: 1.15rem; }
+      .hero-image .frame { width: 260px; height: 260px; }
+
+      .portfolio-grid { grid-template-columns: 1fr; } /* موبایل: ۱ ستون */
+      .services-grid { grid-template-columns: 1fr; }  /* موبایل: ۱ ستون */
+
+      .header-order-btn-text { display: none; } /* در موبایل فقط آیکون دکمه سفارش */
+      .contact-form { padding: 26px 20px; }
+    }
+
+    /* احترام به کاربرانی که انیمیشن کمتر می‌خواهند */
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- نوار پیشرفت اسکرول -->
+  <div id="scroll-progress"></div>
+
+  <!-- ============================================================
+       هدر
+       ============================================================ -->
+  <header id="site-header">
+    <nav class="nav container">
+      <a href="#hero" class="logo">سعید <span>ساز</span></a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">درباره من</a></li>
+        <li><a href="#portfolio">نمونه‌کارها</a></li>
+        <li><a href="#services">خدمات</a></li>
+        <li><a href="#contact">تماس با من</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- دکمه سفارش (به بخش تماس یا واتساپ لینک می‌شود) -->
+        <a href="tel:09213013450" class="btn btn-gold">
+          <i class="fa-solid fa-bolt"></i>
+          <span class="header-order-btn-text">۰۹۲۱۳۰۱۳۴۵۰</span>
+        </a>
+        <!-- دکمه منوی موبایل -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="باز کردن منو">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       بخش اصلی (Hero)
+       ============================================================ -->
+  <section class="hero" id="hero">
+    <!-- افکت سیاه‌چاله (اقتباس وفادار از spry.fi) -->
+    <div class="blackhole-container" id="blackhole" aria-hidden="true">
+      <canvas class="blackhole-canvas" id="blackhole-canvas"></canvas>
+      <div class="blackhole-aura"></div>
+      <div class="blackhole-overlay"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero-text">
+        <!-- تیتر با افکت تایپینگ روی بخش دوم -->
+        <h1>سعید <br /><span class="accent" id="typed-text"></span><span class="typed-cursor"></span></h1>
+        <!-- <p class="subtitle">پیج اینستاگرامت رو به یک فروشگاه حرفه‌ای تبدیل کن</p> -->
+        <p>برای پیج‌های اینستاگرامی که هنوز سایت ندارند، فروشگاه اینترنتی حرفه‌ای می‌سازم — <strong>تحویل سایت فروشگاهی فقط در ۵ روز</strong>، با پرداخت اقساطی و تحویل مرحله‌به‌مرحله.</p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-gold">
+            <i class="fa-solid fa-briefcase"></i> نمونه‌کارهای من
+          </a>
+          <!-- لینک واتساپ مشاوره رایگان — شماره را در راهنمای پایین ویرایش کنید -->
+          <a href="https://wa.me/989213013450?text=سلام،%20برای%20مشاوره%20رایگان%20پیام%20دادم" target="_blank" rel="noopener" class="btn btn-outline">
+            <i class="fa-brands fa-whatsapp"></i> مشاوره رایگان
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="frame">
+          <!-- عکس شخصی — آدرس را با عکس واقعی خود جایگزین کنید -->
+          <img src="./images/saeed.png" alt="سعید — طراح سایت فروشگاهی برای پیج‌های اینستاگرام" loading="eager" width="340" height="340"
+               onerror="this.onerror=null; this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22340%22 height=%22340%22%3E%3Crect width=%22340%22 height=%22340%22 fill=%22%231a2a3a%22/%3E%3Ctext x=%22170%22 y=%22185%22 font-size=%22120%22 text-anchor=%22middle%22 fill=%22%23d4af37%22 font-family=%22sans-serif%22%3E%D8%B3%3C/text%3E%3C/svg%3E';" />
+          <div class="hero-badge"><i class="fa-solid fa-circle-check"></i> در دسترس برای پروژه</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       بخش درباره من
+       ============================================================ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="wrap">
+        <div class="about-text reveal">
+          <h2>درباره سعید</h2>
+          <p>
+            سلام! من سعید هستم، طراح سایت و برنامه‌نویس با بیش از ۷ سال تجربه.
+            تمرکز اصلی من ساختن فروشگاه اینترنتی برای پیج‌های اینستاگرامی است که هنوز
+            سایت ندارند و می‌خواهند فروش حرفه‌ای‌تر و مستقل داشته باشند. اعتقاد دارم هر
+            کسب‌وکاری، با هر بودجه‌ای، حق دارد یک سایت حرفه‌ای داشته باشد؛ به همین دلیل
+            خدماتم را اقساطی و مرحله‌به‌مرحله ارائه می‌دهم و سایت فروشگاهی شما را تنها
+            در ۵ روز تحویل می‌دهم.
+          </p>
+          <div class="signature">
+            <i class="fa-solid fa-signature"></i> سعید — طراح فروشگاه اینترنتی و توسعه‌دهنده وب
+          </div>
+        </div>
+
+        <!-- کارت آمار با شمارنده متحرک -->
+        <div class="stats-card reveal">
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
+            <div class="stat-info">
+              <!-- data-target مقدار نهایی شمارنده است -->
+              <div class="num"><span class="counter" data-target="7">۰</span>+</div>
+              <div class="label">سال تجربه</div>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <div class="stat-info">
+              <div class="num"><span class="counter" data-target="20">۰</span>+</div>
+              <div class="label">پروژه موفق</div>
+            </div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-face-smile"></i></div>
+            <div class="stat-info">
+              <div class="num"><span class="counter" data-target="100">۰</span>٪</div>
+              <div class="label">رضایت مشتری</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       بخش نمونه‌کارها (پورتفولیو)
+       برای افزودن نمونه‌کار جدید، یک بلوک <article class="work-card"> ...
+       را کپی کنید (راهنمای کامل در انتهای فایل).
+       ============================================================ -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>نمونه‌کارهای من</h2>
+        <p>برخی از پروژه‌هایی که برای مشتریان عزیزم انجام دادم</p>
+      </div>
+
+      <div class="portfolio-grid">
+        <!-- ▼▼▼ کارت نمونه‌کار — شروع بلوک قابل کپی ▼▼▼ -->
+        <article class="work-card reveal">
+          <div class="work-thumb">
+            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop&auto=format&q=70" alt="سایت فروشگاهی لباس" loading="lazy" width="400" height="300" />
+          </div>
+          <div class="work-body">
+            <h3>سایت فروشگاهی لباس</h3>
+            <p class="desc">فروشگاه اینترنتی مد و پوشاک با درگاه پرداخت آنلاین</p>
+            <div class="tags">
+              <span class="tag">وردپرس</span>
+              <span class="tag">فروشگاهی</span>
+              <span class="tag">ریسپانسیو</span>
+            </div>
+            <a href="#" class="btn-link">مشاهده جزئیات <i class="fa-solid fa-arrow-left"></i></a>
+          </div>
+        </article>
+        <!-- ▲▲▲ کارت نمونه‌کار — پایان بلوک قابل کپی ▲▲▲ -->
+
+        <article class="work-card reveal">
+          <div class="work-thumb">
+            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=300&fit=crop&auto=format&q=70" alt="سایت شرکتی آرایشگاه" loading="lazy" width="400" height="300" />
+          </div>
+          <div class="work-body">
+            <h3>سایت شرکتی آرایشگاه</h3>
+            <p class="desc">وب‌سایت معرفی خدمات و نوبت‌دهی آنلاین سالن زیبایی</p>
+            <div class="tags">
+              <span class="tag">شرکتی</span>
+              <span class="tag">نوبت‌دهی</span>
+              <span class="tag">ریسپانسیو</span>
+            </div>
+            <a href="#" class="btn-link">مشاهده جزئیات <i class="fa-solid fa-arrow-left"></i></a>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-thumb">
+            <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&h=300&fit=crop&auto=format&q=70" alt="لندینگ پیج کافی‌شاپ" loading="lazy" width="400" height="300" />
+          </div>
+          <div class="work-body">
+            <h3>لندینگ پیج کافی‌شاپ</h3>
+            <p class="desc">صفحه فرود جذاب برای معرفی منو و رزرو میز کافه</p>
+            <div class="tags">
+              <span class="tag">لندینگ</span>
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">سریع</span>
+            </div>
+            <a href="#" class="btn-link">مشاهده جزئیات <i class="fa-solid fa-arrow-left"></i></a>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-thumb">
+            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=300&fit=crop&auto=format&q=70" alt="سایت شرکتی خدماتی" loading="lazy" width="400" height="300" />
+          </div>
+          <div class="work-body">
+            <h3>سایت شرکتی خدماتی</h3>
+            <p class="desc">وب‌سایت رسمی یک شرکت خدمات فنی و مهندسی</p>
+            <div class="tags">
+              <span class="tag">وردپرس</span>
+              <span class="tag">شرکتی</span>
+              <span class="tag">سئو</span>
+            </div>
+            <a href="#" class="btn-link">مشاهده جزئیات <i class="fa-solid fa-arrow-left"></i></a>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-thumb">
+            <img src="https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=400&h=300&fit=crop&auto=format&q=70" alt="فروشگاه دیجیتال" loading="lazy" width="400" height="300" />
+          </div>
+          <div class="work-body">
+            <h3>فروشگاه لوازم دیجیتال</h3>
+            <p class="desc">فروشگاه آنلاین کالای دیجیتال با مدیریت انبار</p>
+            <div class="tags">
+              <span class="tag">فروشگاهی</span>
+              <span class="tag">ووکامرس</span>
+              <span class="tag">ریسپانسیو</span>
+            </div>
+            <a href="#" class="btn-link">مشاهده جزئیات <i class="fa-solid fa-arrow-left"></i></a>
+          </div>
+        </article>
+
+        <article class="work-card reveal">
+          <div class="work-thumb">
+            <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=400&h=300&fit=crop&auto=format&q=70" alt="وبلاگ و مجله آنلاین" loading="lazy" width="400" height="300" />
+          </div>
+          <div class="work-body">
+            <h3>وبلاگ و مجله آنلاین</h3>
+            <p class="desc">پلتفرم انتشار محتوا و مجله تخصصی با پنل مدیریت</p>
+            <div class="tags">
+              <span class="tag">وردپرس</span>
+              <span class="tag">محتوا</span>
+              <span class="tag">سئو</span>
+            </div>
+            <a href="#" class="btn-link">مشاهده جزئیات <i class="fa-solid fa-arrow-left"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       بخش خدمات
+       ============================================================ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>چه خدماتی ارائه می‌دهم؟</h2>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-brands fa-wordpress"></i></div>
+          <h3>طراحی سایت وردپرسی</h3>
+          <p>سایت حرفه‌ای با وردپرس، قابل ویرایش توسط خودتان</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+          <h3>طراحی فروشگاه آنلاین</h3>
+          <p>فروشگاه اینترنتی با پرداخت آنلاین و مدیریت آسان — تحویل فقط در ۵ روز</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-rocket"></i></div>
+          <h3>لندینگ پیج اختصاصی</h3>
+          <p>صفحه فرود جذاب برای معرفی محصول یا خدمات شما</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><i class="fa-solid fa-robot"></i></div>
+          <h3>ربات‌های فروش و پشتیبانی</h3>
+          <p>ربات‌های هوشمند برای فروش خودکار و پاسخگویی ۲۴ ساعته</p>
+        </div>
+      </div>
+
+      <p class="services-note reveal">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+        همه خدمات با امکان پرداخت اقساطی و تحویل مرحله‌به‌مرحله — سایت فروشگاهی در فقط ۵ روز
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       بخش تماس با من
+       ============================================================ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>با من در تماس باش</h2>
+        <p>همین حالا پیام بده، تا ۱ ساعت جواب می‌دم</p>
+      </div>
+
+      <div class="contact-wrap">
+        <!-- فرم تماس — پیام را مستقیم به واتساپ شما می‌فرستد (کد در بخش ۸ جاوااسکریپت) -->
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">نام شما</label>
+            <input type="text" id="name" name="name" placeholder="مثلاً علی رضایی" required />
+          </div>
+          <div class="form-group">
+            <label for="message">پیام شما</label>
+            <textarea id="message" name="message" placeholder="درباره پیج و کسب‌وکارتان بنویسید..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold">
+            <i class="fa-brands fa-whatsapp"></i> ارسال پیام در واتساپ
+          </button>
+          <p class="form-status" id="form-status">
+            <i class="fa-solid fa-circle-check"></i> در حال انتقال به واتساپ... اگر باز نشد، مستقیم پیام بده!
+          </p>
+        </form>
+
+        <!-- اطلاعات تماس + بنر سبز -->
+        <div class="contact-side">
+          <div class="contact-info reveal">
+            <div class="info-item">
+              <div class="ic"><i class="fa-brands fa-whatsapp"></i></div>
+              <div>
+                <span class="info-label">واتساپ</span>
+                <!-- شماره واتساپ — در راهنمای پایین ویرایش کنید -->
+                <a class="info-value" href="https://wa.me/989213013450" target="_blank" rel="noopener" dir="ltr">۰۹۲۱۳۰۱۳۴۵۰</a>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="ic"><i class="fa-brands fa-instagram"></i></div>
+              <div>
+                <span class="info-label">اینستاگرام</span>
+                <a class="info-value" href="https://instagram.com/s_aeedabdi" target="_blank" rel="noopener" dir="ltr">@s_aeedabdi</a>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="ic"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <span class="info-label">ایمیل</span>
+                <a class="info-value" href="mailto:saeid@example.com" dir="ltr">saeid@example.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="free-banner reveal">
+            <i class="fa-solid fa-gift"></i>
+            <span>مشاوره اولیه کاملاً رایگان است، با خیال راحت پیام بده</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       فوتر
+       ============================================================ -->
+  <footer>
+    <div class="container">
+      <div class="footer-logo">سعید <span>ساز</span></div>
+      <div class="footer-social">
+        <a href="https://instagram.com/s_aeedabdi" target="_blank" rel="noopener" aria-label="اینستاگرام"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/989213013450" target="_blank" rel="noopener" aria-label="واتساپ"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://t.me/saeeed_abdi" target="_blank" rel="noopener" aria-label="تلگرام"><i class="fa-brands fa-telegram"></i></a>
+        <!-- <a href="https://linkedin.com/in/s_aeedabdi" target="_blank" rel="noopener" aria-label="لینکدین"><i class="fa-brands fa-linkedin-in"></i></a> -->
+      </div>
+      <div class="footer-divider"></div>
+      <p class="copy">© ۱۴۰۴ - تمامی حقوق برای سعید‌ساز محفوظ است</p>
+    </div>
+  </footer>
+
+  <!-- دکمه بازگشت به بالا -->
+  <button id="back-to-top" aria-label="بازگشت به بالا"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- ============================================================
+       جاوااسکریپت (JavaScript)
+       ============================================================ -->
+  <script>
+    "use strict";
+
+    /* ---------- ابزار: تبدیل اعداد انگلیسی به فارسی ---------- */
+    const toPersianDigits = (n) =>
+      String(n).replace(/\d/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[d]);
+
+    /* ============================================================
+       ۱) هدر: افزودن کلاس scrolled هنگام اسکرول
+       ============================================================ */
+    const header = document.getElementById("site-header");
+    const onScrollHeader = () => {
+      header.classList.toggle("scrolled", window.scrollY > 40);
+    };
+    window.addEventListener("scroll", onScrollHeader, { passive: true });
+    onScrollHeader();
+
+    /* ============================================================
+       ۲) نوار پیشرفت اسکرول
+       ============================================================ */
+    const progressBar = document.getElementById("scroll-progress");
+    const onScrollProgress = () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const percent = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      progressBar.style.width = percent + "%";
+    };
+    window.addEventListener("scroll", onScrollProgress, { passive: true });
+    onScrollProgress();
+
+    /* ============================================================
+       ۳) منوی موبایل (باز/بسته کردن)
+       ============================================================ */
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+    menuToggle.addEventListener("click", () => navLinks.classList.toggle("open"));
+    // بستن منو بعد از کلیک روی هر لینک
+    navLinks.querySelectorAll("a").forEach((link) =>
+      link.addEventListener("click", () => navLinks.classList.remove("open"))
+    );
+
+    /* ============================================================
+       ۴) افکت تایپینگ برای تیتر Hero
+       متن‌های زیر را می‌توانید ویرایش کنید.
+       ============================================================ */
+    const typedEl = document.getElementById("typed-text");
+    const phrases = ["طراح سایت فروشگاهی", "فروشگاه آنلاینت ۵ روزه آمادس"];
+    let pIndex = 0, cIndex = 0, deleting = false;
+
+    function typeLoop() {
+      const current = phrases[pIndex];
+      typedEl.textContent = current.substring(0, cIndex);
+
+      if (!deleting && cIndex < current.length) {
+        cIndex++;
+        setTimeout(typeLoop, 90);
+      } else if (!deleting && cIndex === current.length) {
+        deleting = true;
+        setTimeout(typeLoop, 1800); // مکث در پایان جمله
+      } else if (deleting && cIndex > 0) {
+        cIndex--;
+        setTimeout(typeLoop, 45);
+      } else {
+        deleting = false;
+        pIndex = (pIndex + 1) % phrases.length;
+        setTimeout(typeLoop, 350);
+      }
+    }
+    typeLoop();
+
+    /* ============================================================
+       ۵) انیمیشن fade-in هنگام اسکرول (Intersection Observer)
+       ============================================================ */
+    const revealEls = document.querySelectorAll(".reveal");
+    const revealObserver = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15 }
+    );
+    revealEls.forEach((el) => revealObserver.observe(el));
+
+    /* ============================================================
+       ۶) شمارنده‌های متحرک (Counter Animation)
+       با ورود کارت آمار به دید کاربر فعال می‌شود.
+       ============================================================ */
+    const counters = document.querySelectorAll(".counter");
+    const runCounter = (el) => {
+      const target = +el.dataset.target;
+      const duration = 1600;
+      const startTime = performance.now();
+      const step = (now) => {
+        const progress = Math.min((now - startTime) / duration, 1);
+        // easeOutCubic برای حرکت نرم‌تر
+        const eased = 1 - Math.pow(1 - progress, 3);
+        el.textContent = toPersianDigits(Math.round(eased * target));
+        if (progress < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    };
+    const counterObserver = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            runCounter(entry.target);
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.5 }
+    );
+    counters.forEach((c) => counterObserver.observe(c));
+
+    /* ============================================================
+       ۷) دکمه بازگشت به بالا
+       ============================================================ */
+    const backToTop = document.getElementById("back-to-top");
+    window.addEventListener("scroll", () => {
+      backToTop.classList.toggle("show", window.scrollY > 500);
+    }, { passive: true });
+    backToTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    /* ============================================================
+       ۸) فرم تماس — ارسال مستقیم به واتساپ
+       پیام کاربر (نام، ایمیل، متن) به یک لینک wa.me تبدیل و باز می‌شود؛
+       بدون نیاز به سرور کار می‌کند و پیام مستقیم به واتساپ شما می‌رسد.
+       برای تغییر شماره، مقدار WHATSAPP_NUMBER را ویرایش کنید
+       (فرمت بین‌المللی بدون + و بدون صفر ابتدایی).
+       ============================================================ */
+    const WHATSAPP_NUMBER = "989213013450"; // شماره واتساپ مقصد
+    const form = document.getElementById("contact-form");
+    const formStatus = document.getElementById("form-status");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+      const name = document.getElementById("name").value.trim();
+      const message = document.getElementById("message").value.trim();
+
+      // پیام ثابت همراه با نام و توضیحات کاربر
+      const text =
+        "سلام سعید 👋\n" +
+        "من " + name + " هستم و می‌خوام برای پیج اینستاگرامم یک سایت فروشگاهی بسازی.\n\n" +
+        "توضیحات: " + message;
+
+      const waURL = "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(text);
+      window.open(waURL, "_blank", "noopener");
+
+      formStatus.style.display = "block";
+      form.reset();
+      setTimeout(() => { formStatus.style.display = "none"; }, 6000);
+    });
+
+    /* ============================================================
+       ۹) اسکرول نرم برای لینک‌های داخلی + جبران ارتفاع هدر ثابت
+       ============================================================ */
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        const targetId = this.getAttribute("href");
+        if (targetId === "#") return;
+        const target = document.querySelector(targetId);
+        if (!target) return;
+        e.preventDefault();
+        const headerHeight = header.offsetHeight + 10;
+        const top = target.getBoundingClientRect().top + window.scrollY - headerHeight;
+        window.scrollTo({ top, behavior: "smooth" });
+      });
+    });
+
+    /* ============================================================
+       ۱۰) افکت سیاه‌چاله در پس‌زمینه Hero
+       پورت وفادار از spry.fi (components/blackhole.tsx):
+       ۱۰۰ دیسک بیضوی که با easing به یک نقطهٔ پایین جمع می‌شوند
+       (نمای سه‌بعدی از لبهٔ گرداب) + شبکهٔ خطوط شعاعی + ذرات معلق.
+       سرعت را با ثابت SPEED می‌توانید تغییر دهید.
+       ============================================================ */
+    (function blackHole() {
+      const container = document.getElementById("blackhole");
+      const canvas = document.getElementById("blackhole-canvas");
+      if (!container || !canvas) return;
+      const ctx = canvas.getContext("2d");
+      if (!ctx) return;
+
+      const SPEED = 1; // ضریب سرعت (بزرگ‌تر = تندتر)
+
+      // easing نمایی — باعث تجمع دیسک‌ها نزدیک گلوگاه (حس عمق سه‌بعدی) می‌شود
+      const easeInExpo = (t) => (t === 0 ? 0 : Math.pow(2, 10 * (t - 1)));
+
+      let discs = [], lines = [], particles = [];
+      let rect, render, startDisc, endDisc, clip, particleArea;
+      let linesCanvas, linesCtx;
+
+      /* اندازهٔ بوم بر اساس ابعاد ظرف و رزولوشن دستگاه */
+      function setSize() {
+        rect = container.getBoundingClientRect();
+        render = {
+          width: rect.width,
+          height: rect.height,
+          dpi: Math.min(window.devicePixelRatio || 1, 2),
+        };
+        canvas.width = render.width * render.dpi;
+        canvas.height = render.height * render.dpi;
+      }
+
+      function tweenValue(start, end, p, ease) {
+        const fn = ease === "easeInExpo" ? easeInExpo : (x) => x;
+        return start + (end - start) * fn(p);
+      }
+      function tweenDisc(disc) {
+        disc.x = tweenValue(startDisc.x, endDisc.x, disc.p);
+        disc.y = tweenValue(startDisc.y, endDisc.y, disc.p, "easeInExpo");
+        disc.w = tweenValue(startDisc.w, endDisc.w, disc.p);
+        disc.h = tweenValue(startDisc.h, endDisc.h, disc.p);
+        return disc;
+      }
+
+      /* ساخت دیسک‌ها: از یک بیضی بزرگ تا نقطه‌ای در پایین (گلوگاه گرداب) */
+      function setDiscs() {
+        const { width, height } = rect;
+        discs = [];
+        startDisc = { x: width * 0.5, y: height * 0.45, w: width * 0.75, h: height * 0.7, p: 0 };
+        endDisc = { x: width * 0.5, y: height * 0.95, w: 0, h: 0, p: 0 };
+
+        const total = 100;
+        let prevBottom = height;
+        clip = null;
+
+        for (let i = 0; i < total; i++) {
+          const p = i / total;
+          const disc = tweenDisc(Object.assign({}, startDisc, { p }));
+          const bottom = disc.y + disc.h;
+          if (bottom <= prevBottom) {
+            clip = { disc: Object.assign({}, disc), i, path: new Path2D() };
+          }
+          prevBottom = bottom;
+          discs.push(disc);
+        }
+
+        clip.path.ellipse(clip.disc.x, clip.disc.y, clip.disc.w, clip.disc.h, 0, 0, Math.PI * 2);
+        clip.path.rect(clip.disc.x - clip.disc.w, 0, clip.disc.w * 2, clip.disc.y);
+      }
+
+      /* ساخت خطوط شبکه روی یک بوم جداگانه (کلیپ‌شده در گلوگاه) */
+      function setLines() {
+        const { width, height } = rect;
+        lines = [];
+        const total = 100;
+        const step = (Math.PI * 2) / total;
+        for (let i = 0; i < total; i++) lines.push([]);
+
+        discs.forEach((disc) => {
+          for (let i = 0; i < total; i++) {
+            const angle = i * step;
+            lines[i].push([disc.x + Math.cos(angle) * disc.w, disc.y + Math.sin(angle) * disc.h]);
+          }
+        });
+
+        linesCanvas = document.createElement("canvas");
+        linesCanvas.width = Math.max(1, Math.round(width));
+        linesCanvas.height = Math.max(1, Math.round(height));
+        linesCtx = linesCanvas.getContext("2d");
+
+        lines.forEach((line) => {
+          linesCtx.save();
+          let lineIsIn = false;
+          line.forEach((p1, j) => {
+            if (j === 0) return;
+            const p0 = line[j - 1];
+            if (!lineIsIn && ctx.isPointInPath(clip.path, p1[0], p1[1])) {
+              lineIsIn = true;
+            } else if (lineIsIn) {
+              linesCtx.clip(clip.path);
+            }
+            linesCtx.beginPath();
+            linesCtx.moveTo(p0[0], p0[1]);
+            linesCtx.lineTo(p1[0], p1[1]);
+            linesCtx.strokeStyle = "#444";
+            linesCtx.lineWidth = 2;
+            linesCtx.stroke();
+            linesCtx.closePath();
+          });
+          linesCtx.restore();
+        });
+      }
+
+      /* ذرات معلقِ روبه‌بالا داخل گرداب */
+      function initParticle(start) {
+        const sx = particleArea.sx + particleArea.sw * Math.random();
+        const ex = particleArea.ex + particleArea.ew * Math.random();
+        const y = start ? particleArea.h * Math.random() : particleArea.h;
+        return {
+          x: sx, sx, dx: ex - sx, y,
+          vy: 0.5 + Math.random(),
+          p: 0,
+          r: 0.5 + Math.random() * 4,
+          c: "rgba(255, 255, 255, " + Math.random() + ")",
+        };
+      }
+      function setParticles() {
+        const { width, height } = rect;
+        particles = [];
+        particleArea = { sw: clip.disc.w * 0.5, ew: clip.disc.w * 2, h: height * 0.85, sx: 0, ex: 0 };
+        particleArea.sx = (width - particleArea.sw) / 2;
+        particleArea.ex = (width - particleArea.ew) / 2;
+        for (let i = 0; i < 100; i++) particles.push(initParticle(true));
+      }
+
+      /* ---------- توابع رسم ---------- */
+      function drawDiscs() {
+        ctx.strokeStyle = "#444";
+        ctx.lineWidth = 2;
+
+        // بیضی بیرونی
+        ctx.beginPath();
+        ctx.ellipse(startDisc.x, startDisc.y, startDisc.w, startDisc.h, 0, 0, Math.PI * 2);
+        ctx.stroke();
+        ctx.closePath();
+
+        discs.forEach((disc, i) => {
+          if (i % 5 !== 0) return;
+          const clipped = disc.w < clip.disc.w - 5;
+          if (clipped) { ctx.save(); ctx.clip(clip.path); }
+          ctx.beginPath();
+          ctx.ellipse(disc.x, disc.y, disc.w, disc.h, 0, 0, Math.PI * 2);
+          ctx.stroke();
+          ctx.closePath();
+          if (clipped) ctx.restore();
+        });
+      }
+      function drawLines() { ctx.drawImage(linesCanvas, 0, 0); }
+      function drawParticles() {
+        ctx.save();
+        ctx.clip(clip.path);
+        particles.forEach((pt) => {
+          ctx.fillStyle = pt.c;
+          ctx.beginPath();
+          ctx.rect(pt.x, pt.y, pt.r, pt.r);
+          ctx.closePath();
+          ctx.fill();
+        });
+        ctx.restore();
+      }
+
+      /* ---------- حرکت ---------- */
+      function moveDiscs() {
+        discs.forEach((disc) => {
+          disc.p = (disc.p + 0.001 * SPEED) % 1;
+          tweenDisc(disc);
+        });
+      }
+      function moveParticles() {
+        particles.forEach((pt) => {
+          pt.p = 1 - pt.y / particleArea.h;
+          pt.x = pt.sx + pt.dx * pt.p;
+          pt.y -= pt.vy * SPEED;
+          if (pt.y < 0) pt.y = initParticle().y;
+        });
+      }
+
+      function renderFrame() {
+        ctx.save();
+        ctx.scale(render.dpi, render.dpi);
+        drawDiscs();
+        drawLines();
+        drawParticles();
+        ctx.restore();
+      }
+
+      let raf;
+      function tick() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        moveDiscs();
+        moveParticles();
+        renderFrame();
+        raf = requestAnimationFrame(tick);
+      }
+
+      function setup() { setSize(); setDiscs(); setLines(); setParticles(); }
+
+      setup();
+      // احترام به تنظیم کاهش انیمیشن: فقط یک فریم ثابت
+      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        renderFrame();
+      } else {
+        tick();
+      }
+
+      // بازسازی هنگام تغییر اندازه (با تأخیر برای کارایی)
+      let resizeT;
+      window.addEventListener("resize", () => {
+        clearTimeout(resizeT);
+        resizeT = setTimeout(setup, 200);
+      });
+    })();
+  </script>
+
+  <!-- ============================================================================
+       ============================================================================
+       📘 راهنمای ویرایش و توسعه سایت (برای سعید)
+       ============================================================================
+       ============================================================================
+
+       این سایت کاملاً استاتیک است (فقط HTML/CSS/JS) و به هیچ سرور، PHP یا
+       دیتابیسی نیاز ندارد. کافیست فایل index.html را روی هاست خود آپلود کنید.
+
+       ---------------------------------------------------------------------------
+       ۱) چطور یک نمونه‌کار جدید اضافه کنم؟
+       ---------------------------------------------------------------------------
+       به بخش «نمونه‌کارها» (portfolio) بروید. بین علامت‌های زیر یک کارت نمونه
+       قرار داده شده است:
+            ▼▼▼ کارت نمونه‌کار — شروع بلوک قابل کپی ▼▼▼
+            ...
+            ▲▲▲ کارت نمونه‌کار — پایان بلوک قابل کپی ▲▲▲
+
+       کل بلوک <article class="work-card reveal"> ... </article> را کپی کنید و
+       داخل <div class="portfolio-grid"> جای‌گذاری کنید. سپس این موارد را عوض کنید:
+         • آدرس تصویر (src) و متن جایگزین (alt)
+         • عنوان پروژه داخل <h3>
+         • توضیح یک‌خطی داخل <p class="desc">
+         • تگ‌ها داخل <span class="tag">...</span>
+         • لینک دکمه «مشاهده جزئیات» (فعلاً روی # است)
+       گرید به‌صورت خودکار چیدمان می‌شود (۳ ستون دسکتاپ / ۲ تبلت / ۱ موبایل).
+
+       تصویر پیشنهادی: ابعاد ۴۰۰x۳۰۰ پیکسل با فرمت webp برای سرعت بالا.
+
+       ---------------------------------------------------------------------------
+       ۲) چطور اطلاعات تماس و شبکه‌های اجتماعی را ویرایش کنم؟
+       ---------------------------------------------------------------------------
+       شماره واتساپ در چند نقطه آمده است. همه را به شماره واقعی تغییر دهید
+       (با فرمت بین‌المللی، بدون صفر و علامت +؛ مثال: 989121234567):
+         • دکمه «مشاوره رایگان» در بخش Hero  →  https://wa.me/989213013450
+         • بخش «تماس با من» (لینک و متن نمایشی واتساپ)
+         • آیکون واتساپ در فوتر
+       اینستاگرام: هرجا instagram.com/s_aeedabdi هست را با آیدی خود عوض کنید.
+       ایمیل: saeid@example.com را (در بخش تماس) با ایمیل واقعی جایگزین کنید.
+       تلگرام/لینکدین: در فوتر آدرس t.me/... و linkedin.com/in/... را ویرایش کنید.
+
+       ---------------------------------------------------------------------------
+       ۳) چطور عکس خودم را اضافه کنم؟
+       ---------------------------------------------------------------------------
+       عکس در بخش Hero با این آدرس فراخوانی می‌شود:
+            ./images/saeed.png
+       کافیست عکس خود را با همین نام (saeed.png) در پوشه images روی هاست آپلود کنید،
+       یا آدرس src در تگ <img> بخش hero-image را به مسیر دلخواه تغییر دهید.
+       اگر عکس پیدا نشود، به‌طور خودکار یک تصویر جایگزین (حرف «س») نمایش داده می‌شود.
+       ابعاد پیشنهادی: مربعی (مثلاً ۶۰۰x۶۰۰) و با کیفیت خوب.
+
+       ---------------------------------------------------------------------------
+       ۴) چطور اسکریپت‌های سئو و آنالیتیکس را اضافه کنم؟
+       ---------------------------------------------------------------------------
+       • گوگل آنالیتیکس / تگ منیجر:
+         کد رهگیری را داخل <head> جایی که نوشته شده
+         «<<< GOOGLE ANALYTICS / GTM HERE >>>» جای‌گذاری کنید.
+         نمونه (GA4):
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXX"><\/script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-XXXX');
+            <\/script>
+
+       • گوگل سرچ کنسول:
+         تگ تأیید مالکیت را داخل <head> اضافه کنید:
+            <meta name="google-site-verification" content="کد-شما" />
+         سپس فایل sitemap.xml و robots.txt را در ریشه سایت قرار دهید.
+
+       • متا تگ‌های سئو و Open Graph در ابتدای <head> قرار دارند؛ در صورت نیاز
+         عنوان، توضیحات و تصویر اشتراک‌گذاری را ویرایش کنید.
+
+       • داده ساختاریافته (JSON-LD) برای Person و Organization در <head> هست؛
+         نام، شغل و لینک شبکه‌های اجتماعی را در آن به‌روز کنید.
+
+       ---------------------------------------------------------------------------
+       ۵) چطور فرم تماس را واقعی کنم؟ (اختیاری)
+       ---------------------------------------------------------------------------
+       فرم فعلاً فقط ظاهری است. برای دریافت پیام‌ها روی ایمیل، از سرویس‌های
+       استاتیک مثل Formspree یا Web3Forms استفاده کنید:
+         ۱) در سایت آن‌ها ثبت‌نام کنید و یک endpoint بگیرید.
+         ۲) به تگ <form id="contact-form"> این ویژگی‌ها را اضافه کنید:
+              action="https://formspree.io/f/کد-شما"  method="POST"
+         ۳) بخش JavaScript فرم (قسمت ۸) را حذف یا غیرفعال کنید تا فرم به‌صورت
+            واقعی ارسال شود.
+
+       ---------------------------------------------------------------------------
+       ۶) تغییر رنگ‌ها و ظاهر
+       ---------------------------------------------------------------------------
+       همه رنگ‌ها در ابتدای <style> داخل :root تعریف شده‌اند (متغیرهای CSS).
+       با تغییر --color-primary و --color-accent، کل تم سایت عوض می‌شود.
+
+       موفق باشید! 🚀
+       ============================================================================ -->
+</body>
+</html>
